@@ -17,7 +17,7 @@
     <script src="app-module.js"></script>
     <script src="app-routes.js"></script>
 </head>
-<body ng-app="umbrellaAlert">
+<body ng-app="umbrellaAlert" ng-controller="mainCrtl" ng-init="initializeApp()">
 
      <div class="message">
 
@@ -29,49 +29,22 @@
             <input type="text" placeholder="email">
             <button> Signup </button>
 
+            {{url}}
+
            
             
 
         </div>
 
-    <div class="container" ng-controller="mainCrtl">
+    <div class="container" >
        
         <div class="weather">   
              
-            <h1>weather</h1>
-            <h2>Today</h2>
+            <h1>weather {{apiUrl }}</h1>
+            <h2>Today {{positionObject.longitude}}</h2>
 
             <h2>This Week</h2>
-            <ul>
-
-                <li>
-                    Monday 
-
-
-
-
-                </li>
-
-                  <li>
-                    Tuesday
-                    
-
-
-
-                </li>
-
-                  <li>
-                    Wednesday
-                    
-
-
-
-                </li>
-
-
             
-
-            </ul>
 
         </div>
 

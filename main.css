@@ -58,6 +58,13 @@ li{
     font-weight: bold;
 }
 
+
+.message button:hover{
+    background-color: #16002d;
+    color: white;
+    cursor: pointer;
+}
+
 img{
     width: 20vh;
 }
