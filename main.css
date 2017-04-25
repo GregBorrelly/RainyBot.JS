@@ -1,0 +1,89 @@
+
+
+body{
+
+    background-color: #f7f7f7;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1{
+    font-size: 45px;
+}
+
+ul {
+    list-style: none;
+}
+
+li{
+    border: solid 1px #ccc;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #ccc;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.message{
+
+    min-height: 55vh;
+    width: auto;
+    background-color: #16002d;
+    padding: 10px;
+    padding-bottom: 0px !important;
+    text-align: center;
+}
+
+.message input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color:  #16002d;
+    font-weight: bold;
+
+}
+
+.message button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color:  #16002d;
+    font-weight: bold;
+}
+
+img{
+    width: 20vh;
+}
+
+
+.weather{
+     min-height: 70vh;
+    width: auto;
+    background-color: #f7f7f7;
+      color:  #16002d;
+
+}
+
+#temp{
+    background-color:#ccc; 
+      color:  #16002d;
+      height: 12vh;
+      width: 12vw;
+      border-radius: 50px;
+      position: relative;
+      left: 60vw;
+      font-size: 45px;
+
+     
+}
+
+#temp p{
+    padding-top: 15px;
+}

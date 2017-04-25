@@ -1,2 +1,2 @@
-# WeatherApp
-Because no portfolio is ever complete without one. 
+# AngularJS-Template
+A starter template for AngularJS Templates

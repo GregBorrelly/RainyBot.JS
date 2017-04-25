@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+
+    <script src="main.js"></script>
+    <script src="app-module.js"></script>
+    <script src="app-routes.js"></script>
+</head>
+<body ng-app="umbrellaAlert">
+
+     <div class="message">
+
+            <h1>umbrella Alert</h1>
+
+            <img src="umbrella.svg" alt=""><br>
+            <p>Get alerted before it rains...</p>
+          
+            <input type="text" placeholder="email">
+            <button> Signup </button>
+
+           
+            
+
+        </div>
+
+    <div class="container" ng-controller="mainCrtl">
+       
+        <div class="weather">   
+             
+            <h1>weather</h1>
+            <h2>Today</h2>
+
+            <h2>This Week</h2>
+            <ul>
+
+                <li>
+                    Monday 
+
+
+
+
+                </li>
+
+                  <li>
+                    Tuesday
+                    
+
+
+
+                </li>
+
+                  <li>
+                    Wednesday
+                    
+
+
+
+                </li>
+
+
+            
+
+            </ul>
+
+        </div>
+
+    </div>
+</body>
+</html>
