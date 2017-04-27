@@ -12,6 +12,7 @@ body{
 
 h1{
     font-size: 45px;
+   
 }
 
 ul {
@@ -35,10 +36,14 @@ li{
 
     min-height: 55vh;
     width: auto;
-    background-color: #16002d;
+    /*background-image: url('./rain.jpg');*/
+    background-color:#16002d; 
+    background-color: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) );
+    background-position:center top;
     padding: 10px;
     padding-bottom: 0px !important;
     text-align: center;
+    overflow: hidden;
 }
 
 .message input {
@@ -76,21 +81,4 @@ img{
     background-color: #f7f7f7;
       color:  #16002d;
 
-}
-
-#temp{
-    background-color:#ccc; 
-      color:  #16002d;
-      height: 12vh;
-      width: 12vw;
-      border-radius: 50px;
-      position: relative;
-      left: 60vw;
-      font-size: 45px;
-
-     
-}
-
-#temp p{
-    padding-top: 15px;
 }
