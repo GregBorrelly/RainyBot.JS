@@ -12,7 +12,7 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-    <script src="rainyday.js" > </script>
+   
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
 
@@ -21,13 +21,16 @@
     <script src="app-routes.js"></script>
 
   
- 
+ <script>
+  
+
+ </script>
 </head>
 <body ng-app="umbrellaAlert" ng-controller="mainCrtl" ng-init="initializeApp()">
 
      <div class="message ">
         <div class="rain" style="overflow:hidden;">
-            <h1>umbrella Alert</h1>
+            <h1 >umbrella Alert {{globalRes}}</h1>
 
             <img src="umbrella.svg" alt=""><br>
             <p>Get alerted before it rains...</p>
