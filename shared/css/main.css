@@ -43,7 +43,10 @@ input{
 }
 
 
-
+p{
+    color: purple;
+    font-size: 35px;
+}
 
 
 
@@ -96,4 +99,22 @@ body {
 
 .slider.closed {
 	max-height: 0;
+}
+
+#weatherIcon{
+
+    margin-top: 15vh;
+}
+
+img{
+    height: 250px;
+    width: auto;
+}
+
+
+input{
+    color: purple !important;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px !important;
 }
