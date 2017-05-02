@@ -1,6 +1,10 @@
 angular.module('umbrellaAlert')
     .controller('mainCrtl', ['$scope', function ($scope) {
-
+          $(document).ready(function() {
+    $('select').material_select();
+  });
+            
+            
         $scope.why = false;
 
         function get(url) {

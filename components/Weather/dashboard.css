@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #1b1b1b;
     color: #c708c7;
     padding: 0;
     margin: 0;
@@ -29,7 +29,11 @@ td{
 }
 
 
-
+.container{
+    background: rgba(0, 0, 0,0.4);
+    margin-top:3vw;
+    padding: 10px;
+}
 
 
 

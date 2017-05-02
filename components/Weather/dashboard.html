@@ -1,6 +1,23 @@
 <link rel="stylesheet" href="components/Weather/dashboard.css">
 
 <div class="container weather-container" ng-controller="mainCrtl">
+
+    <div class="row">
+
+<div class="input-field col s10 m3 l3">
+    <select>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Bronx</option>
+      <option value="2">New York City</option>
+      <option value="3">Brooklyn</option>
+    </select>
+    <label>Location</label>
+
+    <button class="btn purple">Get Weather</button>
+  </div>
+
+
+    </div>
     <div ng-if="why==true">
 
 
