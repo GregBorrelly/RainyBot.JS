@@ -1,1 +1,1 @@
-angular.module('umbrellaAlert', []);
+angular.module('umbrellaAlert', ['ngRoute']);

@@ -1,2 +1,3 @@
-# AngularJS-Template
-A starter template for AngularJS Templates
+# Umbrella Alert
+## An Weather Alet app built with AngularJS
+
