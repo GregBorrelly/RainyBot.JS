@@ -28,11 +28,11 @@ angular.module('umbrellaAlert')
             navigator.geolocation.getCurrentPosition(function (position) {
                 var latitude = position.coords.latitude;
                 var longitude = position.coords.longitude;
-                var API = "http://api.openweathermap.org/data/2.5/forecast?lat=" + latitude + "&lon=" + longitude + "&appid=626020384932586fe3fdaafc11b18c48&units=imperial";
+                var API = "https://api.openweathermap.org/data/2.5/forecast?lat=" + latitude + "&lon=" + longitude + "&appid=626020384932586fe3fdaafc11b18c48&units=imperial";
 
                 get(API).then(function (response) {
                     $scope.$apply(function () {
-                        console.log(response);
+    
                         data = response;
                         $scope.why = true;
                         $scope.Weather = {
@@ -50,7 +50,7 @@ angular.module('umbrellaAlert')
 
                         };
 
-                        console.log($scope.Weather);
+                        
 
                       
                         
@@ -66,6 +66,9 @@ angular.module('umbrellaAlert')
             });
         } else {
             /* geolocation IS NOT available */
+
+            
+
         }
 
 
